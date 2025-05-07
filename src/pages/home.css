@@ -1,0 +1,10 @@
+.mainPage {
+    align-items: center;
+    justify-content: right;
+    /* background-color: teal; */
+}
+.seeMore {
+    border-radius: 15px;
+    border: 2px solid grey; 
+    /* display: none; to block*/
+}
