@@ -4,12 +4,14 @@ import ProjectForm from './pages/ProjectForm'
 import Portfolio from './pages/Portfolio'
 import Interest from './pages/Interest'
 import NavBar from "./components/NavBar"
+import Header from "./components/Header"
 import './App.css'
 
 function App() {
 
   return (
     <>
+    {/* <Header/> */}
     <NavBar/>
       <Routes>
         <Route path="/" element={<Home />} />

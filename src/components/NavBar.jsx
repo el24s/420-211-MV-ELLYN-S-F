@@ -5,10 +5,11 @@ import "./navBar.css"
 function NavBar() {
     return (
          <nav>
-            
-            {/* remettre interest et portfolio */}
-            <Link to="/interest">  </Link>
-            <Link to="/portfolio">  </Link>
+            <ul>
+                <li> <Link to="/interest"> Interest </Link> </li>
+                <li> <Link to="/portfolio"> Portfolio </Link> </li>
+                <li> <Link to="/home"> Home </Link></li>
+            </ul>
         </nav>       
     )
 }

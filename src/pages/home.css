@@ -1,6 +1,6 @@
 .mainPage {
-    align-items: center;
-    justify-content: right;
+    align-content: bottom;
+    justify-content: bottom;
     /* background-color: teal; */
 }
 .seeMore {

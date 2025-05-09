@@ -1,22 +1,26 @@
-# React + Vite
+<!-- can remove this # or >  to markdown ?? -->
+# E-portfolio
 
-# Organisation du travail
-
+## Organisation du travail
++ fbsebuse
+    + *hioereo*
+        + ***riehgie***
+> Le NavBar est fini, mais il manque quelques améliorations côté CSS
+> README est fini
 
 # Choisir l'API
+> https://developers.soundcloud.com/docs/api/guide 
+> https://developer.edamam.com/edamam-dcs-recipe-api 
 
-> okay
+## Plan de travail
++ Semaine 1
+    + Je prévois faire la structure de Home, Interest et Portfolio
 
++ Semaine 2
+    + Je prévois mettre les informations dans mes pages et mieux gérer les changements de pages et de où cela va provenir
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
++ Semaine 3
+    + Je prévois finir, gérer les petites erreurs et ajouter des fonctionnalités différents si possible
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-<!-- can remove this # or >  to markdown ?? -->
+# Rétroaction de l'enseignement
+Plan de travail plus précis et vérifier comment fonctionne l'API
