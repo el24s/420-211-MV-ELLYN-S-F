@@ -1,21 +1,17 @@
-/* nav {
-    background-color: white;
-    border-radius: 15px;
-    justify-content: center;
-    height: auto;
-    color: black;
-} */
+nav {
+    /* text-decoration: inherit;
+    color: black; */
+    max-width: 99.3%;
+    /* height: 100%; */
+}
 ul {
-    position: fixed;
-    /* top: 1; */
     list-style-type: none;
-    width: 100%;
+    /* width: 100%; */
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: white;
     border-radius: 15px;
-
 }
 li {
     float: left;

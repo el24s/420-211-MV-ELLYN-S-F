@@ -9,18 +9,19 @@
 > README est fini
 
 # Choisir l'API
-> https://developers.soundcloud.com/docs/api/guide 
-> https://developer.edamam.com/edamam-dcs-recipe-api 
+> https://www.themealdb.com/api.php 
+> recherche les ingrédients et le nom et ça met l'image.
 
 ## Plan de travail
 + Semaine 1
-    + Je prévois faire la structure de Home, Interest et Portfolio
+    + Je prévois faire le dévelopement de base des fonctionnalités de Home, Interest et Portfolio et de commencer l'implémemtation de l'API
 
 + Semaine 2
-    + Je prévois mettre les informations dans mes pages et mieux gérer les changements de pages et de où cela va provenir
+    + Je prévois mettre les informations dans mes pages et je prévois finir l'API et mieux gérer les fonctionnalités pour comme la dynamisation des pages et plus.
 
 + Semaine 3
-    + Je prévois finir, gérer les petites erreurs et ajouter des fonctionnalités différents si possible
+    + Je prévois gérer les petites erreurs qui arriveront en cours de route et ajouter des fonctionnalités différentes si possible
 
 # Rétroaction de l'enseignement
 Plan de travail plus précis et vérifier comment fonctionne l'API
+Finir la semaine 1 et 2 et avoir des visuels différents dans chaque page et de mettre projectForm dans Interest.

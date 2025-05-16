@@ -5,13 +5,14 @@ import Portfolio from './pages/Portfolio'
 import Interest from './pages/Interest'
 import NavBar from "./components/NavBar"
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 import './App.css'
 
 function App() {
 
   return (
     <>
-    {/* <Header/> */}
+    <Header/>
     <NavBar/>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -19,6 +20,7 @@ function App() {
         <Route path="/project" element={<ProjectForm />} />
         <Route path="/interest" element={<Interest />} />
       </Routes>
+    <Footer/>
     </>
   )
 }
