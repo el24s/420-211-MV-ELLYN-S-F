@@ -1,11 +1,9 @@
-import "./header.css"
+import NavBar from "./NavBar"
 
 function Header() {
     return(
-        <div className="header">
-            <h1>
-                 Ellyn Saint-Firmin
-            </h1>
+        <div>
+            <NavBar/>
         </div>
         
     )

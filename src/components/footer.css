@@ -1,5 +1,11 @@
 footer {
-    position: fixed;
+    padding: 20px;
     bottom: 5px;
     text-align: center;
+    color:white;
+    font-size: larger;
+    /* margin: auto; */
+    /* padding: auto; */
+    font-family: Georgia;
 }
+/* inspired by TP3 */

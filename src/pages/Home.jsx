@@ -1,40 +1,24 @@
-import React from "react";
-import { useState } from "react";
 import "./home.css"
 
 function Home() {
-    const [button, setButton] = useState("")
+    // https://www.sitew.com/Conseils-experts-en-creation-de-site/exemples-pages-accueil
     return(
         <>
-        <h2> </h2>
-
-        <div className="mainPage">
-            <div>
-                <img src="src\assets\rollers.png"/>
-                <img src="src\assets\wynonnaearp.png"/>
+        <div className="container">
+            <div className="portfolio">
+                <h3> Portfolio </h3>
+                <h4> Une présentation personnelle et une présentation de l'expérience professionnelle.</h4>
             </div>
-
-        <div className="quality">
-                <h3>gentille </h3>
-                <h3>souriante </h3>
-                <h3> dynamique</h3>
+            <div className="interest">
+                <h3> Intérêt </h3>
+                <h4> Une démonstration d'une de mes passions avec de jolies images.</h4>
+            </div>
+            <div className="projectForm">
+                <h3> Projets </h3>
+                <h4> Pour bonifier les intérêts en ajoutant de nouveaux projets dans notre boutique.</h4>
+            </div>
         </div>
-        <div className="passions">
-            <h3> livres </h3>
-            <h3> patin à roulette </h3> 
-            <h3> badminton</h3> 
-            <h3> gymnastique artistique</h3>
-            <h3> cuisiner</h3>
-            <h3> séries télés. </h3>
-        </div>
-        
-
-        {/* <h2> https://www.w3schools.com/css/css_display_visibility.asp </h2> */}
-        
-        </div>
-        {/* <button className="seeMore"> Click or not </button> */}
-        </>
-        
+        </> 
     )
 }
 

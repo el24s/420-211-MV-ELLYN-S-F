@@ -2,8 +2,8 @@ import "./footer.css"
 
 function Footer() {
     return (
-        <footer>
-           © 
+        <footer >
+        <span> © Copyright Ellyn Saint-Firmin </span>    
         </footer>
     )
 }
