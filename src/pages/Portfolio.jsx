@@ -50,6 +50,10 @@ function Portfolio() {
                     </ul>
                 </div>
         </div>
+        <div className="projetsInfos">
+                    
+        </div>
+
         </>
     )
 }

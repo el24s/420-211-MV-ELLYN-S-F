@@ -4,7 +4,7 @@ function Interest() {
     const [data, setData] = useState(null)
     // let id =2;
     useEffect(() => {
-      fetch("https://www.themealdb.com/api.php" + {id})
+      fetch("https://www.themealdb.com/api.php" + id)
       .then(res => res.json())
       .then(data => console.log(data))
     },[id])   
@@ -21,7 +21,7 @@ function Interest() {
         </div>
         <div>
             there3
-            <button className=""></button>
+            <button className="" onClick="switchThis"></button>
         </div>
         </div>
         </>
