@@ -9,7 +9,7 @@
 > README est fini
 
 # Choisir l'API
-> https://www.themealdb.com/api.php 
+> https://pokeapi.co/api/v2/pokemon/ditto
 > recherche les ingrédients et le nom et ça met l'image.
 
 ## Plan de travail

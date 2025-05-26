@@ -1,30 +1,63 @@
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import "./interest.css"
+
+
 function Interest() {
-    const [data, setData] = useState(null)
-    // let id =2;
+    const [pokemonData, setPokemonData] = useState(null)
+    const [id, setId] = useState(1)
+
     useEffect(() => {
-      fetch("https://www.themealdb.com/api.php" + id)
-      .then(res => res.json())
-      .then(data => console.log(data))
-    },[id])   
-     
-    function switchThis() {
-        
+        if (id > 0) {
+            fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
+                .then(res => res.json())
+                .then(data => setPokemonData(data))
+        }
+
+    }, [id])
+
+    function call(pokemonData) {
+        const form = pokemonData.get("formId")
+        setId(form);
+
     }
+    function switchLeft() {
+        if (id > 1) {
+            setId(prevId => prevId - 1);
+        }
+    }
+    function switchRight() {
+        if (id < 1025) {
+            setId(prevId => prevId + 1);
+        }
+    }
+
+    pokemonData && console.log(pokemonData)
+
     return (
-        <>
-        <h2> Mes centres d'intérêts </h2>
         <div className="mainPage">
-        <div className="secondPage">
-            <h1>  </h1>  
+
+            <form action={call}>
+                <label htmlFor="formId">
+                    <input
+                        type="number"
+                        min={1}
+                        defaultValue={1}
+                        name="formId"
+                        placeholder="Mettez l'id que vous voulez..."
+                    />
+                </label>
+                <button className="search" > Recherche </button>
+
+            {pokemonData ? (<img src={pokemonData.sprites.front_default} alt={pokemonData.name} />) : <p>Chargement...</p>}
+            <h3> {pokemonData && pokemonData.name }</h3>
+
+            </form>
+
+
+            <button className="left" onClick={switchLeft}> Précédent </button>
+            <button className="right" onClick={switchRight}> Suivant </button>
         </div>
-        <div>
-            there3
-            <button className="" onClick="switchThis"></button>
-        </div>
-        </div>
-        </>
+
     )
 }
 

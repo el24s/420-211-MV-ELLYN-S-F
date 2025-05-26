@@ -38,8 +38,7 @@ function ProjectForm() {
                     <fieldset>
                         <legend> Technologies </legend>
 
-                        <label>
-                            HTML
+                        <label> HTML 
                             <input
                                 type="checkbox"
                                 name="technologies"
@@ -48,16 +47,14 @@ function ProjectForm() {
                             />
                             
                         </label>
-                        <label>
-                            CSS
+                        <label> CSS 
                             <input
                                 type="checkbox"
                                 name="technologies"
                                 value="css"
                             />
                         </label>
-                        <label>
-                            Java
+                        <label> Java
                             <input
                                 type="checkbox"
                                 name="technologies"
@@ -65,8 +62,7 @@ function ProjectForm() {
                             />
 
                         </label>
-                        <label>
-                            JavaScript
+                        <label> JavaScript
                             <input
                                 type="checkbox"
                                 name="technologies"
@@ -74,23 +70,17 @@ function ProjectForm() {
                             />
 
                         </label>
-                        <label>
-                            React
-                            <input
-                                type="checkbox"
-                                name="technologies"
-                                value="react"
-                            />
-
-                        </label>
                     </fieldset>
+
+                    
+
 
                     {/* <div className="images">
                         <img src="src\assets\.png" alt="Chargement" />
                         <img src="src\assets\.png" alt="Chargement" />
 
                     </div> */}
-                    
+
                         <img src="src\assets\HTML.png"/>
                         <img src="src\assets\CSS.png" alt="Chargement..." />                            
                         <img src="src\assets\java.png" alt="Chargement..." />
